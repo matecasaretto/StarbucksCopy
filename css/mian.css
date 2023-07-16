@@ -26,6 +26,10 @@ header {
   height: 50px;
 }
 
+.location {
+  height: 30px;
+}
+
 footer {
   background-color: white;
   padding: 20px;
