@@ -1,0 +1,114 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: white;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
+}
+
+.container-fluid {
+  margin-left: 100px;
+}
+.container-fluid .navbar-nav a {
+  margin-right: 20px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: black;
+}
+.container-fluid .navbar-nav a:hover {
+  color: #006241;
+}
+
+.logo {
+  height: 50px;
+}
+
+footer {
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+}
+footer .footer-logos {
+  margin-bottom: 40px;
+}
+footer .footer-logos img {
+  width: 30px;
+  margin-right: 10px;
+}
+footer .footer-logos img:hover {
+  transform: translateY(-5px);
+  color: #999;
+}
+footer .footer-links p {
+  margin-bottom: 10px;
+}
+footer .uy {
+  color: #999;
+  display: block;
+  font-size: 0.625rem;
+  font-weight: 300;
+}
+footer .company {
+  color: #999;
+  display: block;
+  font-size: 0.875rem;
+  font-weight: 300;
+}
+footer .accesibilidad {
+  color: #777;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.container h3 {
+  font-size: calc(1.0188rem + 0.2256vw);
+}
+.container .cofees {
+  display: flex;
+  justify-content: center;
+}
+.container .cofees img {
+  height: 100%;
+  width: 100%;
+}
+.container .bg-aqua {
+  display: flex;
+  justify-content: end;
+  background-color: #61d4f2;
+  justify-content: center;
+  align-items: center;
+}
+.container .bg-aqua h1 {
+  color: #006241;
+  font-size: calc(1.2125rem + 2.55vw);
+  text-align: center;
+}
+
+.row > * {
+  padding: 0;
+}
+
+.links .conta-iner {
+  padding: 80px;
+  margin-top: 70px;
+  box-shadow: 0 -3px 3px rgba(0, 0, 0, 0.1);
+}
+.links .conta-iner h3 {
+  font-size: calc(1.0188rem + 0.2256vw);
+}
+.links .conta-iner a {
+  text-decoration: none;
+  color: #777;
+  font-weight: 400;
+  padding-top: 15px;
+}
+.links .conta-iner :hover {
+  color: black;
+}
+.links .conta-iner .sobre-nosotros {
+  display: flex;
+  flex-direction: column;
+}/*# sourceMappingURL=mian.css.map */

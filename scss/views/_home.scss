@@ -1,0 +1,52 @@
+.container{
+    h3{
+        font-size: calc(1.0188rem + .2256vw);
+    }
+    .cofees{
+        display: flex;
+        justify-content: center;
+        img{
+            height: 100%;
+            width: 100%;
+        }
+    }
+    .bg-aqua{
+        display: flex;
+        justify-content: end;
+        background-color: #61d4f2;
+        justify-content: center;
+        align-items: center;
+        h1{
+            color: #006241;
+            font-size: calc(1.2125rem + 2.55vw);
+            text-align: center;
+        }
+    }
+}
+.row>*{
+    padding: 0;
+}
+.links{
+    .conta-iner{
+        padding: 80px;
+        margin-top: 70px;
+        box-shadow: 0 -3px 3px rgba(0,0,0,.1);
+        h3{
+            font-size: calc(1.0188rem + .2256vw);
+        }
+        a{
+            text-decoration: none;
+            color: #777;
+            font-weight: 400;
+            padding-top: 15px;
+        }& :hover{
+            color: black;
+        }
+        .sobre-nosotros{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}
+
+

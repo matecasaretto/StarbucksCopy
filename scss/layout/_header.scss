@@ -1,0 +1,19 @@
+header{
+    background-color: white;
+    box-shadow: 0 3px 3px rgba(0,0,0,.1);
+}
+.container-fluid{
+    margin-left: 100px;
+    .navbar-nav a{
+        margin-right: 20px;
+        font-weight: 700;
+        letter-spacing: .1em;
+        color: black;
+        &:hover{
+            color: #006241;
+        }
+    }
+}
+.logo{
+    height: 50px;
+}

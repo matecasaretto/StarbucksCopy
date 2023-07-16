@@ -1,0 +1,41 @@
+footer {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    
+    .footer-logos {
+      margin-bottom: 40px;
+      
+      img {
+        width: 30px;
+        margin-right: 10px;
+        &:hover{
+            transform: translateY(-5px);
+            color: #999;
+        }
+      }
+    }
+    
+    .footer-links {
+      p {
+        margin-bottom: 10px;
+      }
+    }
+    .uy{
+    color: #999;
+    display: block;
+    font-size: .625rem;
+    font-weight: 300;
+    }
+    .company{
+    color: #999;
+    display: block;
+    font-size: .875rem;
+    font-weight: 300;
+    }
+    .accesibilidad{
+        color: #777;
+        font-size: 1rem;
+        font-weight: 300;
+        }
+  }
