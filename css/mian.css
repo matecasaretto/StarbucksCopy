@@ -31,40 +31,57 @@ header {
 }
 
 footer {
-  background-color: white;
-  padding: 20px;
-  text-align: center;
+  margin-top: 40px;
+  box-shadow: 0 -3px 3px rgba(0, 0, 0, 0.1);
 }
-footer .footer-logos {
+
+.foooter {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.footer-logos img {
+  height: 40px;
   margin-bottom: 40px;
+  margin-left: 10px;
 }
-footer .footer-logos img {
-  width: 30px;
-  margin-right: 10px;
-}
-footer .footer-logos img:hover {
+.footer-logos img:hover {
   transform: translateY(-5px);
   color: #999;
 }
-footer .footer-links p {
-  margin-bottom: 10px;
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
 }
-footer .uy {
-  color: #999;
-  display: block;
-  font-size: 0.625rem;
+.footer-links .accesibilidad {
+  color: #777;
+  font-size: 1rem;
   font-weight: 300;
 }
-footer .company {
+.footer-links .company {
   color: #999;
   display: block;
   font-size: 0.875rem;
   font-weight: 300;
 }
-footer .accesibilidad {
-  color: #777;
-  font-size: 1rem;
+.footer-links .uy {
+  color: #999;
+  display: block;
+  font-size: 0.625rem;
   font-weight: 300;
+}
+
+.mb-1 a {
+  color: #777;
+}
+.mb-1 a:hover {
+  color: black;
 }
 
 .container h3 {
