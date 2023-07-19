@@ -219,4 +219,31 @@ footer {
 
 .custom-row {
   margin-bottom: 30px;
+}
+
+.container {
+  margin-top: 70px;
+}
+.container .card-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container .card-body a img {
+  background-color: #1e3932;
+  height: 180px;
+  border-radius: 50%;
+  transition: all 0.3s ease-in-out;
+}
+.container .card-body a img:hover {
+  transform: scale(0.8);
+}
+.container .card-body h1 {
+  padding-top: 20px;
+  font-size: calc(1.0188rem + 0.2256vw);
+}
+
+.card {
+  border: none;
 }/*# sourceMappingURL=mian.css.map */
